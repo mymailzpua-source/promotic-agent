@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="uk">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Політика конфіденційності Promotik</title>
+<meta name="description" content="Як тестовий WhatsApp-бот Promotik обробляє дані та як подати запит на видалення.">
+<style>
+:root{font-family:system-ui,sans-serif;color:#17324a;background:#f4f8fb;line-height:1.65}
+body{margin:0}main{box-sizing:border-box;max-width:48rem;margin:3rem auto;padding:clamp(1.25rem,5vw,3rem);background:white;border:1px solid #d7e4ed;border-radius:1rem}
+h1,h2{line-height:1.2;color:#102d44}h1{font-size:clamp(1.9rem,5vw,2.7rem);margin-top:0}h2{font-size:1.3rem;margin-top:2rem}
+a{color:#075787;overflow-wrap:anywhere}a:focus-visible{outline:2px solid #075787;outline-offset:3px}
+@media(max-width:50rem){main{margin:1rem}}
+</style>
+</head>
+<body>
+<main>
+<h1>Політика конфіденційності Promotik</h1>
+<p>Чинна з <time datetime="2026-11-23">23 листопада 2026 року</time>.</p>
+<p>Promotik — тестовий WhatsApp-бот для перегляду показників дозатора PROMOTIC. Бот читає локальний статус і відповідає на команду «Поточна вага» з дозволеного номера.</p>
+<h2>Які дані обробляються</h2>
+<p>Для обробки повідомлення бот використовує номер відправника, текст команди й ідентифікатор повідомлення. У відповіді він може показати тестовий рівень, обсяг завантажених продуктів та час оновлення. Номер використовується для перевірки доступу й надсилання відповіді. Ідентифікатор допомагає уникнути повторної відповіді на ту саму подію.</p>
+<h2>Де обробляються дані</h2>
+<p>PROMOTIC і файл його поточного стану залишаються на комп’ютері оператора. Повідомлення та відповіді передаються через WhatsApp Business Cloud API від Meta. Вхідні події під час тестування доставляються до бота через Cloudflare Tunnel. Meta та Cloudflare можуть обробляти дані відповідно до власних політик.</p>
+<h2>Зберігання</h2>
+<p>Тестовий бот зберігає дозволений номер у налаштуваннях. Для усунення повторів ідентифікатори опрацьованих повідомлень зберігаються в оперативній пам’яті до 24 годин або до перезапуску бота. Історію повідомлень може зберігати WhatsApp відповідно до своїх налаштувань і правил.</p>
+<h2 id="data-deletion">Видалення даних і контакт</h2>
+<p>Щоб попросити видалити дані, доступні оператору Promotik, або прибрати номер зі списку дозволених, напишіть на <a href="mailto:my.mail.zp.ua@gmail.com">my.mail.zp.ua@gmail.com</a> з темою «Promotik — видалення даних». Укажіть номер WhatsApp, з якого користувалися ботом. За потреби оператор уточнить, як підтвердити, що запит стосується вашого номера.</p>
+<p>Для видалення повідомлень у своєму WhatsApp скористайтеся налаштуваннями застосунку. З питаннями щодо даних, які обробляє сама платформа, звертайтеся до WhatsApp.</p>
+</main>
+</body>
+</html>
